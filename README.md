@@ -53,7 +53,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-Ali Haider - [Your Email](alih65993@gmail.com)
+Ali Haider - [ailh65993@gmail.com](alih65993@gmail.com)
 
 Project Link: [https://github.com/AliHaider111/Haider-portfolio](https://github.com/AliHaider111/Haider-portfolio)
 
