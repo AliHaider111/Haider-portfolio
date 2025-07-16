@@ -40,11 +40,8 @@ export default function Home() {
 
       title: "Enterprise SaaS Platform",
       description: "A comprehensive business management solution with analytics, CRM, and workflow automation.",
-
       image: "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1af9937f-b49a-4c4c-ae98-2e0656f18a3e.png",
-
       technologies: ["React", "Node.js", "MongoDB"],
-
       link: "#"
 
     },
@@ -52,13 +49,9 @@ export default function Home() {
     {
 
       title: "Nabeela Coaching",
-
       description: "A comprehensive platform offering courses, consultations, and resources for personal development.",
-
       image: "nabeelaspace.png",
-
       technologies: ["React","Redux toolkit", "Node.js", "WebSockets"],
-
       link: "https://nabeelacoaching.com"
 
     },
@@ -66,22 +59,16 @@ export default function Home() {
     {
 
       title: "Online Medical Consultation",
-
       description: "A telehealth service providing online consultations with licensed healthcare practitioners.",
-
       image: "/alphacare.jpeg",
-
       technologies: ["React", "Redux", "Node.Js", "MongoDB", "Google ads"],
-
       link: "https://www.alphacareinc.com"
 
     },
 
     {
       title: "The CareMd",
-
       description: "A platform offering various telehealth services including consultations and prescription refills.",
-
       image: "/caremd.jpeg",
       technologies: ["Next.js", "Node.Js", "WebSockets"],
       link: "https://www.thecaremd.com"
@@ -97,9 +84,7 @@ export default function Home() {
       title: "Al Quran",
       description: "An authentic Islamic application for reading and listening to the Holy Quran, featuring MP3 audio from renowned reciters and prayer notifications.",
       image: "/AlQuran.webp",
-
       technologies: ["Javascript", "React Native"],
-
       link: "https://play.google.com/store/apps/details?id=free.alquran.holyquran&hl=en&pli=1"
 
     },
@@ -107,13 +92,9 @@ export default function Home() {
     {
 
       title: "Deal Detector",
-
       description: "A centralized hub for scraping and aggregating sales data from popular clothing, shoe, and perfume brands.",
-
       image: "/deal.webp",
-
       technologies: ["Python", "Node.js", "Web Scraping"],
-
       link: "https://play.google.com/store/apps/details?id=com.arhamsoft.discountfinderclean&pcampaignid=web_share"
 
     },
@@ -121,13 +102,9 @@ export default function Home() {
     {
 
       title: "Innerlight",
-
       description: "A holistic platform dedicated to personal growth and self-discovery, offering programs and resources.",
-
       image: "/innerlight.png",
-
       technologies: ["Node.Js", "Flutter", "Stripe"],
-
       link: "https://play.google.com/store/apps/details?id=com.arhamsoft.innerlight.innerlights&pcampaignid=web_share"
 
     },
@@ -135,13 +112,9 @@ export default function Home() {
     {
 
       title: "Home Decor",
-
       description: "An innovative digital solution designed to transform your living environment and showcase your residential aesthetics.",
-
       image: "/homedecor.webp",
-
       technologies: ["Node.Js", "Native android"],
-
       link: "https://play.google.com/store/apps/details?id=com.arhamsoft.homedecor&pcampaignid=web_share"
 
     }
