@@ -52,7 +52,7 @@ export default function Home() {
       description: "A comprehensive platform offering courses, consultations, and resources for personal development.",
       image: "nabeelaspace.png",
       technologies: ["React","Redux toolkit", "Node.js", "WebSockets"],
-      link: "https://nabeelacoaching.com"
+      link: "#"
 
     },
 
@@ -124,20 +124,20 @@ export default function Home() {
 
   return (
     <div>
-      <nav className="bg-white shadow-sm sticky top-0 z-50">
+      <nav className="bg-slate-900 shadow-lg sticky top-0 z-50 border-b border-slate-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <span className="text-xl font-bold gradient-text">Ali Haider</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#about" className="text-slate-600 hover:text-indigo-600 transition">About</a>
-              <a href="#experience" className="text-slate-600 hover:text-indigo-600 transition">Experience</a>
-              <a href="#projects" className="text-slate-600 hover:text-indigo-600 transition">Projects</a>
-              <a href="#skills" className="text-slate-600 hover:text-indigo-600 transition">Skills</a>
-              <a href="#contact" className="text-slate-600 hover:text-indigo-600 transition">Contact</a>
+              <a href="#about" className="text-slate-300 hover:text-emerald-400 transition">About</a>
+              <a href="#experience" className="text-slate-300 hover:text-emerald-400 transition">Experience</a>
+              <a href="#projects" className="text-slate-300 hover:text-emerald-400 transition">Projects</a>
+              <a href="#skills" className="text-slate-300 hover:text-emerald-400 transition">Skills</a>
+              <a href="#contact" className="text-slate-300 hover:text-emerald-400 transition">Contact</a>
             </div>
-            <button className="md:hidden">
+            <button className="md:hidden text-slate-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
@@ -154,27 +154,27 @@ export default function Home() {
               <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-4">
                 Hey, I'm <span className="gradient-text">Ali Haider</span>
               </h1>
-              <h2 className="text-2xl sm:text-3xl font-semibold text-slate-600 mb-6">
+              <h2 className="text-2xl sm:text-3xl font-semibold text-slate-300 mb-6">
                 Senior Software Engineer
               </h2>
-              <p className="text-lg text-slate-600 mb-8">
+              <p className="text-lg text-slate-400 mb-8">
                 With 5+ years of experience in building scalable web applications,
                 I specialize in solving complex problems with clean, efficient code.
               </p>
               <div className="flex space-x-4">
-                <a href="#contact" className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-medium rounded-lg shadow-md hover:opacity-90 transition">
+                <a href="#contact" className="px-6 py-3 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white font-medium rounded-lg shadow-md hover:opacity-90 transition">
                   Get In Touch
                 </a>
-                <a href="#projects" className="px-6 py-3 border border-slate-300 rounded-lg font-medium hover:bg-slate-50 transition">
+                <a href="#projects" className="px-6 py-3 border border-slate-600 rounded-lg font-medium text-slate-300 hover:bg-slate-800 transition">
                   View My Work
                 </a>
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center">
               <div className="relative">
-                <img src="/ali.JPEG" alt="Professional portrait of Ali Haider, a software engineer with short beard wearing glasses and casual professional attire" className="rounded-2xl shadow-xl w-full max-w-md" />
-                <div className="absolute -bottom-5 -right-5 bg-white p-2 rounded-lg shadow-md">
-                  <span className="code-font text-sm font-medium">📍 Remote / On-site</span>
+                <img src="/ali1.png" alt="Professional portrait of Ali Haider, a software engineer with short beard wearing glasses and casual professional attire" className="rounded-2xl shadow-xl w-full max-w-md" />
+                <div className="absolute -bottom-5 -right-5 bg-slate-800 p-2 rounded-lg shadow-md border border-slate-700">
+                  <span className="code-font text-sm font-medium text-slate-300">📍 Remote / On-site</span>
                 </div>
               </div>
             </div>
@@ -183,46 +183,46 @@ export default function Home() {
       </section>
 
       {/* <!-- About Section --> */}
-      <section id="about" className="py-20 bg-slate-50">
+      <section id="about" className="py-20 bg-slate-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">
             <span className="gradient-text">About Me</span>
           </h2>
           <div className="flex flex-col md:flex-row gap-12">
             <div className="md:w-1/2">
-              <h3 className="text-xl font-semibold mb-4">Who I Am</h3>
-              <p className="text-slate-600 mb-6">
+              <h3 className="text-xl font-semibold mb-4 text-slate-200">Who I Am</h3>
+              <p className="text-slate-400 mb-6">
                 I'm a passionate software engineer with expertise in full-stack development.
                 Over the past 5 years, I've helped companies build robust, user-friendly
                 applications that drive business growth.
               </p>
-              <p className="text-slate-600 mb-6">
+              <p className="text-slate-400 mb-6">
                 My approach combines technical excellence with business awareness,
                 ensuring the solutions I deliver not only work well but also create real value.
               </p>
-              <div className="bg-white p-6 rounded-xl shadow-sm">
-                <h4 className="font-medium mb-3">Quick Facts:</h4>
+              <div className="bg-slate-900 p-6 rounded-xl shadow-sm border border-slate-700">
+                <h4 className="font-medium mb-3 text-slate-200">Quick Facts:</h4>
                 <ul className="space-y-2">
-                  <li className="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-purple-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <li className="flex items-center text-slate-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-emerald-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     5+ years of professional experience
                   </li>
-                  <li className="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-purple-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <li className="flex items-center text-slate-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-emerald-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     Full-stack expertise
                   </li>
-                  <li className="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-purple-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <li className="flex items-center text-slate-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-emerald-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     Agile methodology practitioner
                   </li>
-                  <li className="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-purple-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <li className="flex items-center text-slate-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-emerald-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     Open source contributor
@@ -248,16 +248,16 @@ export default function Home() {
             {/* <!-- Experience Item 1 --> */}
             <div className="mb-12 flex flex-col md:flex-row">
               <div className="md:w-1/2 md:pr-12 pb-6 md:pb-0 md:text-right">
-                <h3 className="text-xl font-semibold">Senior Software Engineer</h3>
-                <p className="text-blue-600 mb-2">Arhamsoft Pvt. Ltd.</p>
-                <p className="text-slate-500">April 2022 - Present</p>
+                <h3 className="text-xl font-semibold text-slate-200">Senior Software Engineer</h3>
+                <p className="text-emerald-400 mb-2">Arhamsoft Pvt. Ltd.</p>
+                <p className="text-slate-400">April 2022 - Present</p>
               </div>
               <div className="hidden md:flex items-center justify-center w-8 mx-6">
-                <div className="bg-blue-500 rounded-full w-4 h-4"></div>
+                <div className="bg-emerald-500 rounded-full w-4 h-4"></div>
               </div>
-              <div className="md:w-1/2 pl-0 md:pl-12 pt-6 md:pt-0 border-l-0 md:border-l-2 border-slate-200">
-                <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
-                  <ul className="list-disc pl-5 text-slate-600 space-y-2">
+              <div className="md:w-1/2 pl-0 md:pl-12 pt-6 md:pt-0 border-l-0 md:border-l-2 border-slate-700">
+                <div className="bg-slate-800 p-6 rounded-lg shadow-sm hover:shadow-md transition border border-slate-700">
+                  <ul className="list-disc pl-5 text-slate-300 space-y-2">
                     <li>Led a team of 5 developers to rebuild the company's flagship SaaS platform</li>
                     <li>Improved application performance by 300% through architectural redesign</li>
                     <li>Implemented CI/CD pipeline reducing deployment time by 80%</li>
@@ -269,9 +269,9 @@ export default function Home() {
 
             {/* <!-- Experience Item 2 --> */}
             <div className="mb-12 flex flex-col md:flex-row">
-              <div className="md:w-1/2 order-last md:order-first md:pl-12 pt-6 md:pt-0 border-l-0 md:border-l-2 border-slate-200">
-                <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
-                  <ul className="list-disc pl-5 text-slate-600 space-y-2">
+              <div className="md:w-1/2 order-last md:order-first md:pl-12 pt-6 md:pt-0 border-l-0 md:border-l-2 border-slate-700">
+                <div className="bg-slate-800 p-6 rounded-lg shadow-sm hover:shadow-md transition border border-slate-700">
+                  <ul className="list-disc pl-5 text-slate-300 space-y-2">
                     <li>Developed REST APIs serving 10M+ monthly requests</li>
                     <li>Created automated testing suite reducing bugs by 60%</li>
                     <li>Optimized database queries improving response times by 40%</li>
@@ -280,28 +280,28 @@ export default function Home() {
                 </div>
               </div>
               <div className="hidden md:flex items-center justify-center w-8 mx-6 order-1">
-                <div className="bg-blue-500 rounded-full w-4 h-4"></div>
+                <div className="bg-emerald-500 rounded-full w-4 h-4"></div>
               </div>
               <div className="md:w-1/2 md:pr-12 pb-6 md:pb-0 order-2 md:text-right">
-                <h3 className="text-xl font-semibold">Software Engineer</h3>
-                <p className="text-blue-600 mb-2">Nextbridge Ltd.</p>
-                <p className="text-slate-500">Mar 2021 - April 2022</p>
+                <h3 className="text-xl font-semibold text-slate-200">Software Engineer</h3>
+                <p className="text-emerald-400 mb-2">Nextbridge Ltd.</p>
+                <p className="text-slate-400">Mar 2021 - April 2022</p>
               </div>
             </div>
 
             {/* <!-- Experience Item 3 --> */}
             <div className="mb-12 flex flex-col md:flex-row">
               <div className="md:w-1/2 md:pr-12 pb-6 md:pb-0 md:text-right">
-                <h3 className="text-xl font-semibold">Junior Developer</h3>
-                <p className="text-blue-600 mb-2">GamicaCloud (GCIT)</p>
-                <p className="text-slate-500"> 2020 - 2021</p>
+                <h3 className="text-xl font-semibold text-slate-200">Junior Developer</h3>
+                <p className="text-emerald-400 mb-2">GamicaCloud (GCIT)</p>
+                <p className="text-slate-400"> 2020 - 2021</p>
               </div>
               <div className="hidden md:flex items-center justify-center w-8 mx-6">
-                <div className="bg-blue-500 rounded-full w-4 h-4"></div>
+                <div className="bg-emerald-500 rounded-full w-4 h-4"></div>
               </div>
-              <div className="md:w-1/2 pl-0 md:pl-12 pt-6 md:pt-0 border-l-0 md:border-l-2 border-slate-200">
-                <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
-                  <ul className="list-disc pl-5 text-slate-600 space-y-2">
+              <div className="md:w-1/2 pl-0 md:pl-12 pt-6 md:pt-0 border-l-0 md:border-l-2 border-slate-700">
+                <div className="bg-slate-800 p-6 rounded-lg shadow-sm hover:shadow-md transition border border-slate-700">
+                  <ul className="list-disc pl-5 text-slate-300 space-y-2">
                     <li>Built frontend components for web applications</li>
                     <li>Fixed bugs and improved existing features</li>
                     <li>Participated in sprint planning and retrospectives</li>
@@ -315,28 +315,28 @@ export default function Home() {
       </section>
 
       {/* <!-- Projects Section --> */}
-      <section id="projects" className="py-20 bg-slate-50">
+      <section id="projects" className="py-20 bg-slate-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">
             <span className="gradient-text">Featured Projects</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.slice(0, showAll ? projects.length : 3).map((project, index) => (
-              <div key={index} className="project-card bg-white rounded-xl shadow-sm overflow-hidden transition duration-300">
+              <div key={index} className="project-card bg-slate-900 rounded-xl shadow-sm overflow-hidden transition duration-300 border border-slate-700">
                 <div className="h-48 overflow-hidden">
                   <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                  <p className="text-slate-600 mb-4">{project.description}</p>
+                  <h3 className="text-xl font-semibold mb-2 text-slate-200">{project.title}</h3>
+                  <p className="text-slate-400 mb-4">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.technologies.map((tech, techIndex) => (
-                      <span key={techIndex} className="px-3 py-1 bg-slate-100 text-slate-800 rounded-full text-xs font-medium">{tech}</span>
+                      <span key={techIndex} className="px-3 py-1 bg-slate-800 text-emerald-400 rounded-full text-xs font-medium border border-slate-700">{tech}</span>
                     ))}
                   </div>
                   <div className="flex space-x-3">
-                    <a href={project.link} className="text-blue-600 font-medium hover:underline">View Project</a>
-                    <a href="#" className="text-slate-600 hover:text-slate-900">
+                    <a href={project.link} className="text-emerald-400 font-medium hover:text-emerald-300 hover:underline">View Project</a>
+                    <a href="#" className="text-slate-400 hover:text-slate-300">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                       </svg>
@@ -347,7 +347,7 @@ export default function Home() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <button onClick={() => setShowAll(!showAll)} className="px-4 py-2 bg-blue-600 text-white rounded-md">
+            <button onClick={() => setShowAll(!showAll)} className="px-4 py-2 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white rounded-md hover:opacity-90 transition">
               {showAll ? "Show Less" : "Load More"}
             </button>
           </div>
@@ -363,174 +363,174 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* <!-- Languages --> */}
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-700">
               <div className="flex items-center mb-4">
-                <div className="bg-blue-100 p-2 rounded-lg mr-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="bg-emerald-500/20 p-2 rounded-lg mr-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold">Languages</h3>
+                <h3 className="text-xl font-semibold text-slate-200">Languages</h3>
               </div>
               <div className="grid grid-cols-2 gap-2">
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   JavaScript
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   TypeScript
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   Python
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   SQL
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   Bash
                 </span>
               </div>
             </div>
 
             {/* <!-- Frontend --> */}
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-700">
               <div className="flex items-center mb-4">
-                <div className="bg-purple-100 p-2 rounded-lg mr-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="bg-cyan-500/20 p-2 rounded-lg mr-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold">Frontend</h3>
+                <h3 className="text-xl font-semibold text-slate-200">Frontend</h3>
               </div>
               <div className="grid grid-cols-2 gap-2">
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   React
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   Redux toolkit/thunk
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   Next.js
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   Angular
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   Tailwind CSS
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   SASS/LESS
                 </span>
               </div>
             </div>
 
             {/* <!-- Backend --> */}
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-700">
               <div className="flex items-center mb-4">
-                <div className="bg-indigo-100 p-2 rounded-lg mr-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="bg-emerald-500/20 p-2 rounded-lg mr-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold">Backend</h3>
+                <h3 className="text-xl font-semibold text-slate-200">Backend</h3>
               </div>
               <div className="grid grid-cols-2 gap-2">
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-indigo-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   Node.js
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-indigo-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   Express
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-indigo-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   Django
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-indigo-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   Apollo
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-indigo-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   GraphQL
                 </span>
               </div>
             </div>
 
             {/* <!-- Databases --> */}
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-700">
               <div className="flex items-center mb-4">
-                <div className="bg-green-100 p-2 rounded-lg mr-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="bg-cyan-500/20 p-2 rounded-lg mr-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold">Databases</h3>
+                <h3 className="text-xl font-semibold text-slate-200">Databases</h3>
               </div>
               <div className="grid grid-cols-2 gap-2">
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   MongoDB
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   PostgreSQL
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   MySQL
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   Redis
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   Firebase
                 </span>
               </div>
             </div>
 
             {/* <!-- DevOps --> */}
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-700">
               <div className="flex items-center mb-4">
-                <div className="bg-red-100 p-2 rounded-lg mr-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="bg-emerald-500/20 p-2 rounded-lg mr-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold">DevOps</h3>
+                <h3 className="text-xl font-semibold text-slate-200">DevOps</h3>
               </div>
               <div className="grid grid-cols-2 gap-2">
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-red-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   Docker
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-red-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   Bitbucket
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-red-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   AWS
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-red-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   Azure
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-red-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></span>
                   GitHub Actions
                 </span>
 
@@ -538,30 +538,30 @@ export default function Home() {
             </div>
 
             {/* <!-- Testing --> */}
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-700">
               <div className="flex items-center mb-4">
-                <div className="bg-yellow-100 p-2 rounded-lg mr-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="bg-cyan-500/20 p-2 rounded-lg mr-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold">Testing</h3>
+                <h3 className="text-xl font-semibold text-slate-200">Testing</h3>
               </div>
               <div className="grid grid-cols-2 gap-2">
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-yellow-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   Jest
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-yellow-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   Cypress
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-yellow-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   JUnit
                 </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-yellow-500 rounded-full mr-2"></span>
+                <span className="flex items-center text-slate-300">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   Postman
                 </span>
               </div>
@@ -587,7 +587,7 @@ export default function Home() {
 
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <div className="bg-blue-600 p-2 rounded-lg mr-4">
+                  <div className="bg-emerald-500 p-2 rounded-lg mr-4">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                       <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
@@ -595,12 +595,12 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-medium">Email</h4>
-                    <a href="mailto:ali.haider@example.com" className="text-slate-400 hover:text-white transition">alih65993@gmail.com</a>
+                    <a href="mailto:ali.haider@example.com" className="text-slate-400 hover:text-emerald-400 transition">alih65993@gmail.com</a>
                   </div>
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-blue-600 p-2 rounded-lg mr-4">
+                  <div className="bg-emerald-500 p-2 rounded-lg mr-4">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                     </svg>
@@ -612,7 +612,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-blue-600 p-2 rounded-lg mr-4">
+                  <div className="bg-emerald-500 p-2 rounded-lg mr-4">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9z" clipRule="evenodd" />
                     </svg>
@@ -624,7 +624,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-start">
-        <div className="bg-blue-600 p-2 rounded-lg mr-4">
+        <div className="bg-emerald-500 p-2 rounded-lg mr-4">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
             <path d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 14a6 6 0 100-12 6 6 0 000 12z" />
             <path d="M10 4a6 6 0 100 12 6 6 0 000-12zm0 10a4 4 0 100-8 4 4 0 000 8z" />
@@ -661,22 +661,22 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-slate-300 mb-1">Name</label>
-                    <input type="text" id="name" className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition" />
+                    <input type="text" id="name" className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 transition" />
                   </div>
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-1">Email</label>
-                    <input type="email" id="email" className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition" />
+                    <input type="email" id="email" className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 transition" />
                   </div>
                 </div>
                 <div>
                   <label htmlFor="subject" className="block text-sm font-medium text-slate-300 mb-1">Subject</label>
-                  <input type="text" id="subject" className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition" />
+                  <input type="text" id="subject" className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 transition" />
                 </div>
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-slate-300 mb-1">Message</label>
-                  <textarea id="message" rows="4" className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition"></textarea>
+                  <textarea id="message" rows="4" className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 transition"></textarea>
                 </div>
-                <button type="submit" className="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition">
+                <button type="submit" className="w-full px-6 py-3 bg-gradient-to-r from-emerald-500 to-cyan-500 hover:opacity-90 text-white font-medium rounded-lg transition">
                   Send Message
                 </button>
               </form>
